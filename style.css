@@ -1,0 +1,69 @@
+body{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background: powderblue;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(42, 14, 78);
+}
+
+form{
+    max-width: 280px;
+    margin: auto;
+    border-radius: 7px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+fieldset{
+    border: 2px solid rgb(92, 87, 126);
+    border-radius: 8px;
+    padding: 20px;
+    margin-block: 10px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(52, 81, 136);
+}
+
+label{
+    display: block;
+    margin-top: 5px;
+    color: rgb(11, 73, 73);
+}
+
+button{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    background-color: rgb(39, 156, 172);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.right-button {
+    float: right;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+#confirmation-message {
+    margin-top: 20px;
+    color: green;
+    text-align: center;
+}
+
+#resume-output {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}

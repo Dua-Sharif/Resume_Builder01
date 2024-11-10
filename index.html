@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>RESUME BUILDER BY DUA SHARIF</h1>
+    <form id="resume-form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="dob">Date of Birth: </label>
+            <input type="date" id="dob" name="dob" required><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Institute Name: </label>
+            <input type="name" id="education" name="name" required><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Work Experience</legend>
+            <label for="experience">Experience: </label>
+            <textarea id="experience" rows="2" required></textarea><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills: </label>
+            <textarea type="text" id="skills" required></textarea><br>
+          
+        </fieldset>
+        <button type="button" id="generate-resume" class="right-button">Generate Resume</button>
+
+    </form>
+    
+    <div id="confirmation-message" style="display: none;">
+        <h2> YOUR RESUME HAS BEEN BUILT SUCCESSFULLY</h2>
+    </div>
+
+    <div id="resume-output" style="display: none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
